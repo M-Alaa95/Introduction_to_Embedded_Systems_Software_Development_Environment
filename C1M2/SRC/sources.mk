@@ -25,10 +25,10 @@ else
 
 # Add your include paths to this variable
 ifeq ($(PLATFORM),MSP432)
-	INCLUDES = 	   -I../include/CMSIS \
-			   -I../include/common \
-			   -I../include/msp432 
+	INCLUDES = 	   -I../INCLUDES/CMSIS \
+			   -I../INCLUDES/common \
+			   -I../INCLUDES/msp432 
 else
-	INCLUDES =         -I../include/common	
+	INCLUDES =         -I../INCLUDES/common	
 
 endif
